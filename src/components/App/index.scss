@@ -1,0 +1,34 @@
+.app {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .board {
+        min-width: 200px;
+        min-height: 300px;
+        border: 5px solid black;
+        border-radius: 15px;
+        padding: 20px 10px;
+        margin: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .board-title {
+            font-size: 1.5rem;
+            font-weight: normal;
+        }
+
+        .item {
+            width: 100%;
+            border: 2px solid black;
+            padding: 10px;
+            border-radius: 5px;
+            margin: 5px 0;
+            cursor: grab;
+            background-color: rgb(245, 243, 241);
+        }
+    }
+}
