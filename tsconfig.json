@@ -1,0 +1,32 @@
+{
+    "compilerOptions": {
+        "jsx": "react",
+        "module": "CommonJS",
+        "noImplicitAny": true,
+        "outDir": "./dist/",
+        "preserveConstEnums": true,
+        "removeComments": true,
+        "sourceMap": true,
+        "target": "ES2021",
+        "lib": ["dom", "dom.iterable", "esnext"],
+        "esModuleInterop": true,
+        "declaration": true,
+        "strict": true,
+        "forceConsistentCasingInFileNames": true,
+        "skipLibCheck": true,
+        "moduleResolution": "Node",
+        "resolveJsonModule": true,
+        "allowSyntheticDefaultImports": true,
+        "importHelpers": true,
+        "noEmitHelpers": true,
+        "strictBindCallApply": true,
+        "baseUrl": "./",
+        "paths": {
+            "components/*": ["./src/components/*"],
+            "hooks/*": ["./src/hooks/*"],
+            "stores/*": ["./src/stores/*"],
+            "App": ["./src/App"]
+        },
+        "locale": "en"
+    }
+}
